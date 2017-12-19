@@ -1,13 +1,13 @@
 interface Person {
     firstName: string
-    lastName: string
-    meaningOfLife: any
+    lastName: string | null
+    meåningOfLife: any
 }
 
 function greeter(person: Person) {
     return "Hello, " + person.firstName + " " + person.lastName
 }
 
-let user = { firstName: "Jane", lastName: "User", meaningOfLife: 42 }
+let user = { firstName: "Jane", lastName: "User", meåningOfLife: 42 }
 
 console.log(greeter(user))
