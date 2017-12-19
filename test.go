@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	åSushi := "🍣"
+	teståSushi := "🍣"
 
-	fmt.Printf("sushi: %s\n", åSushi)
+	fmt.Printf("sushi: %s\n", teståSushi)
 }
