@@ -8,6 +8,11 @@ function greeter(person: Person) {
     return "Hello, " + person.firstName + " " + person.lastName
 }
 
-let user = { firstName: "Jane", lastName: "User", meåningOfLife: 42 }
+const user = {
+    firstName: "Jane",
+    lastName: "User",
+    meåningOfLife: 42
+}
 
 console.log(greeter(user))
+console.log(user.meåningOfLife)
